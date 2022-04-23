@@ -46,6 +46,7 @@ public class App {
                  }
                     break;
                  case '!':{
+                      System.out.println("-----------------------Fiche Trier----------------------------------------------");
                     TreeMap<String, Fiche> treemap = new TreeMap<>(a1.table);
                      for (Fiche f1 : treemap.values()) {
                          System.out.println(f1.getNom());
