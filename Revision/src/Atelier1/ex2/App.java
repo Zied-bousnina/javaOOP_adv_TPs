@@ -55,7 +55,7 @@ public class App {
                          System.out.println("-------------");
 
                      }
-                     System.out.println("---------------------------------------------------------------------");
+                     System.out.println("------------------------Fiche Non Trier---------------------------------------------");
                      for (Fiche f1 : a1.table.values()) {
                         System.out.println(f1.getNom());
                         System.out.println(f1.getNumero());
